@@ -16,7 +16,7 @@ const LandingSection = () => (
     backgroundColor="#2A4365"
   >
     <VStack spacing={8}>
-      <Avatar src="https://media.licdn.com/dms/image/v2/C4E03AQG--v0_4uADtWtluMZZRkmMI/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517593259424?e=1743638400&v=beta&t=cE5_mY2iS5Z0tC7K3_rX_jW_L_t_h_X_N_Q_A_A_D_Q" size="2xl" />
+      <Avatar src={require("../images/karan_profile.png")} size="2xl" />
       <Heading as="h4" size="md" noOfLines={1}>
         {greeting}
       </Heading>

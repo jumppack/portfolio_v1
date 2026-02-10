@@ -8,19 +8,19 @@ const projects = [
     title: "Docker-for-Ed",
     description:
       "Established single source of truth using DevOps & CI/CD for NYU shipping Docker images for programming courses.",
-    getImageSrc: () => require("../images/photo1.jpg"),
+    getImageSrc: () => require("../images/docker.png"),
   },
   {
     title: "Location Sharing App",
     description:
       "React app with AWS Cognito/Lambda & MySQL for preference-based location sharing.",
-    getImageSrc: () => require("../images/photo2.jpg"),
+    getImageSrc: () => require("../images/location.png"),
   },
   {
     title: "Simulink UI",
     description:
       "Designed and implemented high-performance user interfaces for Simulink at MathWorks.",
-    getImageSrc: () => require("../images/photo3.jpg"),
+    getImageSrc: () => require("../images/simulink.png"),
   },
   {
     title: "Patient ADT Tool",
